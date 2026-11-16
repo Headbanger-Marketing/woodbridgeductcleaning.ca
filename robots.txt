@@ -1,0 +1,28 @@
+User-agent: *
+Disallow: /thank-you/
+Allow: /
+
+# AI / answer-engine crawlers explicitly allowed (citation is the goal)
+User-agent: GPTBot
+Disallow: /thank-you/
+Allow: /
+User-agent: OAI-SearchBot
+Disallow: /thank-you/
+Allow: /
+User-agent: ClaudeBot
+Disallow: /thank-you/
+Allow: /
+User-agent: PerplexityBot
+Disallow: /thank-you/
+Allow: /
+User-agent: Google-Extended
+Disallow: /thank-you/
+Allow: /
+User-agent: CCBot
+Disallow: /thank-you/
+Allow: /
+User-agent: Applebot-Extended
+Disallow: /thank-you/
+Allow: /
+
+Sitemap: https://woodbridgeductcleaning.ca/sitemap-index.xml
